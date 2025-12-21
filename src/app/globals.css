@@ -1,0 +1,65 @@
+/* --------------- Variáveis Globais --------------- */
+
+:root {
+
+  /* Fundos */
+  --background: #FFFFFF;
+  --foreground: #000000;
+}
+
+/* Variáveis do Tema Escuro (Dark) */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100svh;
+  max-width: 100svw;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--foreground);
+  background: var(--background);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+main{
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+}
+}
+
+/* --------------- Resetando estilos Padrões --------------- */
+
+/* Margens, Bordas e Cálculo de Dimensões */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilos de Links */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Informando o Tema do Navegador ao elemento pai */
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
