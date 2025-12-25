@@ -1,0 +1,21 @@
+.logo_main {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1%;
+    left: 2%;
+
+    /* -------- Nas telas de 1920 x 1080 -------- */
+
+    /* width: 230px; */
+    /* height: 54px; */
+
+    width: 160px;
+    height: 54px;
+    max-width: 160px;
+    max-height: 54px;
+    border-radius: 20px;
+    background-color: #4A90E2;
+    z-index: 10;
+}

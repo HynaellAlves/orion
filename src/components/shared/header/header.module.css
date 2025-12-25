@@ -1,0 +1,31 @@
+/* ------- Content Principal do Cabeçalho ------- */
+
+.header {
+    /* Estilos de Definição */
+    position: fixed;
+    width: 60%;
+    max-width: 60%;
+    max-height: 78px;
+    top: 2%;
+    border-radius: 20px;
+    background-color: #2f3a4536;
+    backdrop-filter: blur(8px);
+    z-index: 10;
+
+    /* Estilos Internos */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1%;
+}
+
+/* ------- Elementos do Cabeçalho ------- */
+
+.options_header {
+    font-family: var(--font-geist-sans);
+    font-size: 1rem;
+    padding: 5px;
+    background-color: red;
+}
