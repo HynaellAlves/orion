@@ -4,4 +4,5 @@
     min-height: 750px;
     max-height: 90svh;
     background-color: #D1D5DB;
+    font-family: var(--font-text);
 }

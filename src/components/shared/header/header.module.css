@@ -24,7 +24,7 @@
 /* ------- Elementos do Cabeçalho ------- */
 
 .options_header {
-    font-family: var(--font-geist-sans);
-    font-size: 1rem;
-    background-color: red;
+    font-family: var(--font-title);
+    font-size: 1.5rem;
+    background-color: #4A90E2;
 }
