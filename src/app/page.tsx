@@ -7,11 +7,10 @@ import Image from "@/components/UI/image/image";
 export default function Index() {
   return (
     <div className={`${styles.index} page`}>
-      <h1>Essa é a página da Landing Page</h1>
       <Section id={styles.section_hero}>
         <div className={styles.content_informationsHero}></div>
         <div id={styles.content_imageHero}>
-          <Image width={300} height={300} src={""} alt={"Imagem de seção Hero"}/>
+          <Image width={300} height={300} src={"https://images.unsplash.com/photo-1523240795612-9a054b0db644"} alt={"Imagem de seção Hero"}/>
         </div>
       </Section>
       <Section>2</Section>

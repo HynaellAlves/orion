@@ -1,23 +1,16 @@
 import styles from "./header.module.css";
 
+import HeaderButton from "@/components/UI/buttons/header/header_button";
+
 export default function Header() {
     return (
+
         <div id={styles.header} className={styles.header}>
-            <div className={styles.options_header}>
-                <h3>Option 1</h3>
-            </div>
-            <div className={styles.options_header}>
-                <h3>Option 2</h3>
-            </div>
-            <div className={styles.options_header}>
-                <h3>Option 3</h3>
-            </div>
-            <div className={styles.options_header}>
-                <h3>Option 4</h3>
-            </div>
-            <div className={styles.options_header}>
-                <h3>Option 5</h3>
-            </div>
+            <HeaderButton class={styles.options_header} alt="Option 1" src="#" />
+            <HeaderButton class={styles.options_header} alt="Option 2" src="#" />
+            <HeaderButton class={styles.options_header} alt="Option 3" src="#" />
+            <HeaderButton class={styles.options_header} alt="Option 4" src="#" />
+            <HeaderButton class={styles.options_header} alt="Option 5" src="#" />
         </div>
     )
 }

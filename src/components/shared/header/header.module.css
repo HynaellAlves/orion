@@ -4,7 +4,7 @@
     /* Estilos de Definição */
     position: fixed;
     width: 60%;
-    max-width: 60%;
+    max-width: 1152px;
     max-height: 78px;
     top: 2%;
     border-radius: 20px;
@@ -18,7 +18,7 @@
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-evenly;
-    padding: 1%;
+    padding: 1rem;
 }
 
 /* ------- Elementos do Cabeçalho ------- */
@@ -26,6 +26,5 @@
 .options_header {
     font-family: var(--font-geist-sans);
     font-size: 1rem;
-    padding: 5px;
     background-color: red;
 }
