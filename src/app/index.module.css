@@ -22,7 +22,7 @@
   row-gap: 30px;
   flex-direction: column;
   align-items: center;
-  font-family: var(--font-text);
+  font-family: var(--font-geist-sans);
 }
 
 #section_hero {
@@ -33,7 +33,7 @@
 }
 
 .content_informationsHero {
-  width: 40%;
+  width: 45%;
   height: 80%;
   background-color: #4ae2c9;
 }

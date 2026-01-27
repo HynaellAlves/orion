@@ -4,12 +4,14 @@ import styles from "./index.module.css";
 import Section from "@/components/delimited/section/section";
 import ConfirmButton from "@/components/UI/buttons/confirm/confirm_button";
 import Image from "@/components/UI/image/image";
+import Title from "@/components/UI/title/title";
 
 export default function Index() {
   return (
     <div className={`${styles.index} page`}>
       <Section id={styles.section_hero}>
         <div className={styles.content_informationsHero}>
+          <Title>Formação profissional para quem quer entrar no mercado de verdade</Title>
         <ConfirmButton alt="Ver Cursos" type="button" />
         </div>
         <div id={styles.content_imageHero}>
