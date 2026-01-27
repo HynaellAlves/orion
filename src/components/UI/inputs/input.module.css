@@ -1,0 +1,21 @@
+.content_input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    height: min-content;
+    max-width: 90%;
+}
+
+.label_input {
+    font-size: 2rem;
+}
+
+.input {
+    outline: none;
+    width: 100%;
+    padding: 2% 3%;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}

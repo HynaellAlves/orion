@@ -47,6 +47,23 @@
   background-color: #4ae2c9;
 }
 
+#section_contact {
+  display: flex;
+  align-items: center;
+  padding: 2% 4%;
+}
+
+/* #forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  min-height: 70%;
+  row-gap: 30px;
+  border: 1px solid black;
+} */
+
 /* ------------------- Adaptações de Tela e Dispositivos ------------------- */
 
 /* Enable hover only on non-touch devices */
