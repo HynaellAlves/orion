@@ -17,7 +17,7 @@ export default function Index() {
           <ConfirmButton alt="Ver Cursos" type="button" />
         </div>
         <div id={styles.content_imageHero}>
-          <Image width={300} height={300} src={"https://images.unsplash.com/photo-1523240795612-9a054b0db644"} alt={"Imagem de seção Hero"} />
+          <Image width={300} height={300} src={""} alt={"Imagem de seção Hero"} />
         </div>
       </Section>
       <Section>2</Section>
