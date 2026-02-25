@@ -1,7 +1,18 @@
 .header_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     width: max-content;
     height: max-content;
     max-height: max-content;
     padding: 0.3rem;
+    color: var(--header-text);
     font-family: var(--font-title);
+    font-weight: 400;
+}
+
+.icon {
+    max-width: 20px;
+    margin: 0 0.5rem 0 0;
 }

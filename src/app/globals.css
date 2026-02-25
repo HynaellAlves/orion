@@ -14,10 +14,31 @@ body {
 
 /* --------------------Definindo as Variáveis de Ambiente CSS -------------------- */
 
-  --font-title: var(--font-geist-sans);
-  --font-text: var(--font-geist-mono);
-  --font-input: var(--font-geist-sans);
-  --font-button: var(--font-geist-sans);
+  --font-title: var(--font-poppins);
+  --font-text: var(--font-nunito);
+  --font-input: var(--font-poppins);
+  --font-button: var(--font-poppins);
+
+ 
+
+    /* ------------------- Definindo as variáveis de estilo ------------------- */
+
+  /* Fundos */
+  --background: #FFFFFF;
+  --foreground: #0298A7;
+  --footer-background: #2f3a45;
+  --header-background: #ffe8d159;
+  --button-background: #FF8C3F;
+
+  /* Fontes */
+  --text-primary: #000000;
+  --text-secondary: #FFFFFF;
+  --header-text: #324B4F;
+
+  /* Elementos Interativos */
+  --button-primary-hover: #383838;
+  --button-secondary-hover: #f2f2f2;
+  --button-secondary-border: #ebebeb;
 
   overflow-x: hidden;
   position: relative;

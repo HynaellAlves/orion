@@ -1,21 +1,6 @@
 /* ------------------- Classe Principal da Página Principal ------------------- */
 .index {
 
-  /* ------------------- Definindo as variáveis de estilo ------------------- */
-
-  /* Fundos */
-  --background: #FFFFFF;
-  --foreground: #000000;
-
-  /* Fontes */
-  --text-primary: #000000;
-  --text-secondary: #FFFFFF;
-
-  /* Elementos Interativos */
-  --button-primary-hover: #383838;
-  --button-secondary-hover: #f2f2f2;
-  --button-secondary-border: #ebebeb;
-
   display: flex;
   color: black;
   min-height: min-content;
@@ -35,7 +20,6 @@
 .content_informationsHero {
   width: 45%;
   height: 80%;
-  background-color: #4ae2c9;
 }
 
 #content_imageHero {
@@ -44,7 +28,11 @@
   height: 65%;
   right: 0;
   border-radius: 50px 0 0 50px;
-  background-color: #4ae2c9;
+  overflow: hidden;
+}
+
+#section_mediaCourses {
+  background: var(--foreground);
 }
 
 #section_contact {

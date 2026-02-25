@@ -17,10 +17,10 @@ export default function Index() {
           <ConfirmButton alt="Ver Cursos" type="button" />
         </div>
         <div id={styles.content_imageHero}>
-          <Image width={300} height={300} src={""} alt={"Imagem de seção Hero"} />
+          <Image width={300} height={300} src={"/image_hero.png"} alt={"Imagem da seção Hero"} />
         </div>
       </Section>
-      <Section>2</Section>
+      <Section id={styles.section_mediaCourses}>2</Section>
       <Section>3</Section>
       <Section>4</Section>
       <Section>5</Section>
