@@ -23,6 +23,11 @@
   height: 80%;
 }
 
+#impact_title {
+  font-size: 3.5rem;
+  text-align: justify;
+}
+
 #content_imageHero {
   position: absolute;
   width: 50%;

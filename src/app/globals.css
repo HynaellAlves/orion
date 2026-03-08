@@ -1,5 +1,19 @@
-/* --------------- Variáveis Globais --------------- */
+/* --------------- Resetando estilos Padrões --------------- */
 
+/* Estilos padrões de elementos e páginas */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilos padrões de Links */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Definindo estilos padrões de página */
 html,
 body {
   width: 100%;
@@ -12,25 +26,37 @@ html {
 
 body {
 
-/* --------------------Definindo as Variáveis de Ambiente CSS -------------------- */
+  /* --------------- Variáveis Globais --------------- */
 
+  /* Fontes */
   --font-title: var(--font-poppins);
   --font-text: var(--font-nunito);
   --font-input: var(--font-poppins);
   --font-button: var(--font-poppins);
 
- 
+  /* Tamanhos de Fontes */
+  --font-size-title: 2.5rem;
+  --font-size-subtitle: 2rem;
+  --font-size-label: 1.5rem;
+  --font-size-text: 1rem;
+  --font-size-input: 1rem;
+  --font-size-button: 2rem;
 
-    /* ------------------- Definindo as variáveis de estilo ------------------- */
+  /* Tamanhos de Ícones */
+  --icon-size-header: 1.7rem;
+  --icon-size-button: 3.4rem;
+  --icon-size-card: 3.4rem;
+  --icon-size-statistic: 2rem;
 
-  /* Fundos */
+  /* Cores de Fundos */
   --background: #FFFFFF;
-  --foreground: #0298A7;
-  --footer-background: #2f3a45;
-  --header-background: #ffe8d159;
-  --button-background: #FF8C3F;
+  --foreground: #402E32;
+  --footer-background: #222222;
+  --header-background: #c7c7c741;
+  --button-background: #402E32;
+  --button-foreground: #FFFFFF;
 
-  /* Fontes */
+  /* Cores de Fontes */
   --text-primary: #000000;
   --text-secondary: #FFFFFF;
   --header-text: #324B4F;
@@ -57,27 +83,4 @@ main {
 
 .page {
   width: 100%;
-}
-
-/* --------------- Resetando estilos Padrões --------------- */
-
-/* Margens, Bordas e Cálculo de Dimensões */
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-/* Estilos de Links */
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-@media (min-width: 1920px) {
-  html {
-    font-size: 16px;
-  }
 }
