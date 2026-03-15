@@ -1,7 +1,6 @@
 /* ------------------- Classe Principal da Página Principal ------------------- */
 
 .index {
-
   display: flex;
   color: black;
   min-height: min-content;
@@ -9,42 +8,65 @@
   flex-direction: column;
   align-items: center;
   font-family: var(--font-geist-sans);
-}
 
-#section_hero {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
+  .section_hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 
-.content_informationsHero {
-  width: 45%;
-  height: 80%;
-}
+    .content_informationsHero {
+      display: flex;
+      flex-direction: column;
+      width: 45%;
+      min-height: 60%;
+      row-gap: 20px;
+      padding: 2%;
 
-#impact_title {
-  font-size: 3.5rem;
-  text-align: justify;
-}
+      .impact_title {
+        text-align: justify;
+        font-size: 3.5rem;
+        font-weight: 600;
+      }
 
-#content_imageHero {
-  position: absolute;
-  width: 50%;
-  height: 65%;
-  right: 0;
-  border-radius: 50px 0 0 50px;
-  overflow: hidden;
-}
+      .impact_subtitle {
+        color: var(--subtitle-primary);
+        text-align: justify;
+        font-size: var(--font-size-subtitle);
+        font-weight: 400;
+      }
+    }
+    .content_imageHero {
+      overflow: hidden;
+      max-width: 50%;
+      max-height: 70%;
+      border-radius: 50px 0 0 50px;
+    }
+  }
 
-#section_mediaCourses {
-  background: var(--foreground);
-}
+  .section_mediaCourses {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-#section_contact {
-  display: flex;
-  align-items: center;
-  padding: 2% 4%;
+    .title_mediaCourses {
+      padding: 2% 0;
+      font-weight: 400;
+    }
+
+    .content_mediaCourses {
+      width: 100%;
+      height: 80%;
+      background: var(--foreground);
+    }
+  }
+
+  .section_contact {
+    display: flex;
+    align-items: center;
+    padding: 2% 4%;
+  }
 }
 
 /* #forms {
@@ -76,8 +98,6 @@
 /* Adaptação para Tema escuro do Navegador */
 
 @media (prefers-color-scheme: dark) {
-
-
   /* .logo {
     filter: invert();
   } */

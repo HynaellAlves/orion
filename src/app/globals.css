@@ -25,7 +25,6 @@ html {
 }
 
 body {
-
   /* --------------- Variáveis Globais --------------- */
 
   /* Fontes */
@@ -49,17 +48,19 @@ body {
   --icon-size-statistic: 2rem;
 
   /* Cores de Fundos */
-  --background: #FFFFFF;
-  --foreground: #402E32;
+  --background: #ffffff;
+  --foreground: #402e32;
   --footer-background: #222222;
   --header-background: #c7c7c741;
   --button-background: #402E32;
-  --button-foreground: #FFFFFF;
+  --button-foreground: #ffffff;
 
   /* Cores de Fontes */
   --text-primary: #000000;
-  --text-secondary: #FFFFFF;
-  --header-text: #324B4F;
+  --text-secondary: #ffffff;
+  --button-primary: #ffffff;
+  --subtitle-primary: #324B4F;
+  --header-text: #324b4f;
 
   /* Elementos Interativos */
   --button-primary-hover: #383838;
@@ -78,9 +79,16 @@ main {
   align-items: center;
   width: 100%;
   row-gap: 30svh;
-  padding: 6% 0 0 0;
 }
 
 .page {
   width: 100%;
+}
+
+@media screen and (min-width: 1920px) {
+
+  html {
+  font-size: 16px;
+}
+
 }
