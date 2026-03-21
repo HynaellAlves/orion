@@ -28,9 +28,10 @@ export default function Index() {
         </div>
       </Section>
       <Section id="section_mediaCourses" class={styles.section_mediaCourses}>
-        <Show_hidden_button>D</Show_hidden_button>
         <Title class={styles.title_mediaCourses}>Veja o dia a dia de quem estuda no Orion !</Title>
         <div className={styles.content_mediaCourses}>
+        <div className={styles.elements_background}></div>
+        <Show_hidden_button>D</Show_hidden_button>
         </div>
       </Section>
       <Section>3</Section>
