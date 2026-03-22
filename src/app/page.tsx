@@ -7,6 +7,7 @@ import Show_hidden_button from "@/components/UI/buttons/show_hidden/show_hidden_
 import Image from "@/components/UI/image/image";
 import Input from "@/components/UI/inputs/input";
 import Text_area from "@/components/UI/inputs/text_area/text_area";
+import Smarts from "@/components/UI/screens/smartphones/smarts";
 import Title from "@/components/UI/title/title";
 
 export default function Index() {
@@ -28,11 +29,21 @@ export default function Index() {
         </div>
       </Section>
       <Section id="section_mediaCourses" class={styles.section_mediaCourses}>
-        <Title class={styles.title_mediaCourses}>Veja o dia a dia de quem estuda no Orion !</Title>
+        <Title class={styles.title_mediaCourses}>
+          Veja o dia a dia de quem estuda no Orion !
+        </Title>
         <div className={styles.content_mediaCourses}>
-        <div className={styles.elements_background}></div>
-        <Show_hidden_button>D</Show_hidden_button>
+          <div className={styles.elements_background} />
+          <div className={styles.smarts}>
+            <Smarts src="/teste_media.jpg" />
+            <Smarts src="/teste_media.jpg" />
+            <Smarts src="/teste_media.jpg" />
+          </div>
+          <div className={styles.courses_cards}>
+
+          </div>
         </div>
+        <Show_hidden_button>D</Show_hidden_button>
       </Section>
       <Section>3</Section>
       <Section>4</Section>

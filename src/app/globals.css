@@ -52,14 +52,14 @@ body {
   --foreground: #402e32;
   --footer-background: #222222;
   --header-background: #c7c7c741;
-  --button-background: #402E32;
+  --button-background: #402e32;
   --button-foreground: #ffffff;
 
   /* Cores de Fontes */
   --text-primary: #000000;
   --text-secondary: #ffffff;
   --button-primary: #ffffff;
-  --subtitle-primary: #324B4F;
+  --subtitle-primary: #324b4f;
   --header-text: #324b4f;
 
   /* Elementos Interativos */
@@ -85,10 +85,24 @@ main {
   width: 100%;
 }
 
-@media screen and (min-width: 1920px) {
-
+@media screen and (max-width: 1024px) {
   html {
-  font-size: 16px;
+    font-size: 10px;
+  }
+  #header {
+  }
+
+  .page .section {
+    max-height: 20svh;
+  }
 }
 
+@media screen and (min-width: 1128px) {
+  #header {
+  }
+}
+@media screen and (min-width: 1920px) {
+  html {
+    font-size: 16px;
+  }
 }

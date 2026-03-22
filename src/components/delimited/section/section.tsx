@@ -8,7 +8,7 @@ interface propSection {
 
 export default function Section(prop: propSection) {
     return (
-        <div id={prop.id} className={`${prop.class} ${styles.section}`}>
+        <div id={prop.id} className={`${prop.class} ${styles.section} section`}>
             {prop.children}
         </div>
     )
